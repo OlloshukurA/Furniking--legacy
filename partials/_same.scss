@@ -142,6 +142,69 @@
         }
 }
 
-html{
-    scroll-behavior: smooth;
-  }
+.chair--price{
+    display: flex;
+    justify-content: space-between;
+        span{
+            margin-left: 7px;    
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 120%;
+            letter-spacing: 0.005em;
+            text-decoration-line: line-through;
+
+            color: #CCCCCC;
+
+        }
+}
+
+.hover--icon{
+    position: relative;
+    bottom: 10px;
+    img{
+        width: 38.85px;
+        height: 38.89px;
+        background-color: #fff;
+        border-radius: 50%;
+        padding: 9.72px 9.71px;
+        cursor: pointer;
+            &:not(:first-child){
+                margin-bottom: 8.72px;
+                position: relative;
+            }
+
+            
+    }
+}
+
+.Gchair--type{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin-bottom: 8px;
+}
+
+.Gchair--discounted_price{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #7AC751;
+    
+}
+
+.chair--group{
+    width: 100% !important;
+        .top--chair{
+            width: 20% !important;
+                
+        }
+}

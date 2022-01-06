@@ -374,22 +374,226 @@ if("star40"){
 }
 
 
+// if(star5){
+//     star5.addEventListener('click', () => {
+//         star5.src = "img/section2/star.svg"
+//     })
+// }
 
 
-
-
-
-
-
-
-
-
-
-if(star5){
-    star5.addEventListener('click', () => {
-        star5.src = "img/section2/star.svg"
+if(Gstar1){
+    Gstar1.addEventListener('click', () => {
+        Gstar1.src = "img/section2/star.svg"
     })
 }
+if(Gstar2){
+    Gstar2.addEventListener('click', () => {
+        Gstar2.src = "img/section2/star.svg"
+    })
+}
+if(Gstar3){
+    Gstar3.addEventListener('click', () => {
+        Gstar3.src = "img/section2/star.svg"
+    })
+}
+if(Gstar4){
+    Gstar4.addEventListener('click', () => {
+        Gstar4.src = "img/section2/star.svg"
+    })
+}
+if(Gstar5){
+    Gstar5.addEventListener('click', () => {
+        Gstar5.src = "img/section2/star.svg"
+    })
+}
+if(Gstar6){
+    Gstar6.addEventListener('click', () => {
+        Gstar6.src = "img/section2/star.svg"
+    })
+}
+if(Gstar7){
+    Gstar7.addEventListener('click', () => {
+        Gstar7.src = "img/section2/star.svg"
+    })
+}
+if(Gstar8){
+    Gstar8.addEventListener('click', () => {
+        Gstar8.src = "img/section2/star.svg"
+    })
+}
+if(Gstar9){
+    Gstar9.addEventListener('click', () => {
+        Gstar9.src = "img/section2/star.svg"
+    })
+}
+
+if(Gstar10){
+    Gstar10.addEventListener('click', () => {
+        Gstar10.src = "img/section2/star.svg"
+    })
+}
+
+
+if(Gstar11){
+    Gstar11.addEventListener('click', () => {
+        Gstar11.src = "img/section2/star.svg"
+    })
+}
+if("Gstar12"){
+    Gstar12.addEventListener('click', () => {
+        Gstar12.src = "img/section2/star.svg"
+    })
+}
+if("Gstar13"){
+    Gstar13.addEventListener('click', () => {
+        Gstar13.src = "img/section2/star.svg"
+    })
+}
+if("Gstar14"){
+    Gstar14.addEventListener('click', () => {
+        Gstar14.src = "img/section2/star.svg"
+    })
+}
+if("Gstar15"){
+    Gstar15.addEventListener('click', () => {
+        Gstar15.src = "img/section2/star.svg"
+    })
+}
+if("Gstar16"){
+    Gstar16.addEventListener('click', () => {
+        Gstar16.src = "img/section2/star.svg"
+    })
+}
+if("Gstar17"){
+    Gstar17.addEventListener('click', () => {
+        Gstar17.src = "img/section2/star.svg"
+    })
+}
+if("Gstar18"){
+    Gstar18.addEventListener('click', () => {
+        Gstar18.src = "img/section2/star.svg"
+    })
+}
+if("Gstar19"){
+    Gstar19.addEventListener('click', () => {
+        Gstar19.src = "img/section2/star.svg"
+    })
+}
+if("Gstar20"){
+    Gstar20.addEventListener('click', () => {
+        Gstar20.src = "img/section2/star.svg"
+    })
+}
+if("Gstar21"){
+    Gstar21.addEventListener('click', () => {
+        Gstar21.src = "img/section2/star.svg"
+    })
+}
+if("Gstar22"){
+    Gstar22.addEventListener('click', () => {
+        Gstar22.src = "img/section2/star.svg"
+    })
+}
+if("Gstar23"){
+    Gstar23.addEventListener('click', () => {
+        Gstar23.src = "img/section2/star.svg"
+    })
+}
+if("Gstar24"){
+    Gstar24.addEventListener('click', () => {
+        Gstar24.src = "img/section2/star.svg"
+    })
+}
+if("Gstar25"){
+    Gstar25.addEventListener('click', () => {
+        Gstar25.src = "img/section2/star.svg"
+    })
+}
+if("Gstar26"){
+    Gstar26.addEventListener('click', () => {
+        Gstar26.src = "img/section2/star.svg"
+    })
+}
+if("Gstar27"){
+    Gstar27.addEventListener('click', () => {
+        Gstar27.src = "img/section2/star.svg"
+    })
+}
+if("Gstar28"){
+    Gstar28.addEventListener('click', () => {
+        Gstar28.src = "img/section2/star.svg"
+    })
+}
+if("Gstar29"){
+    Gstar29.addEventListener('click', () => {
+        Gstar29.src = "img/section2/star.svg"
+    })
+}
+if("Gstar30"){
+    Gstar30.addEventListener('click', () => {
+        Gstar30.src = "img/section2/star.svg"
+    })
+}
+if("Gstar31"){
+    Gstar12.addEventListener('click', () => {
+        Gstar12.src = "img/section2/star.svg"
+    })
+}
+if("Gstar32"){
+    Gstar32.addEventListener('click', () => {
+        Gstar32.src = "img/section2/star.svg"
+    })
+}
+if("Gstar33"){
+    Gstar33.addEventListener('click', () => {
+        Gstar33.src = "img/section2/star.svg"
+    })
+}
+if("Gstar34"){
+    Gstar34.addEventListener('click', () => {
+        Gstar34.src = "img/section2/star.svg"
+    })
+}
+if("Gstar35"){
+    Gstar35.addEventListener('click', () => {
+        Gstar35.src = "img/section2/star.svg"
+    })
+}
+if("Gstar36"){
+    Gstar36.addEventListener('click', () => {
+        Gstar36.src = "img/section2/star.svg"
+    })
+}
+if("Gstar37"){
+    Gstar37.addEventListener('click', () => {
+        Gstar137.src = "img/section2/star.svg"
+    })
+}
+if("Gstar38"){
+    Gstar38.addEventListener('click', () => {
+        Gstar38.src = "img/section2/star.svg"
+    })
+}
+if("Gstar39"){
+    Gstar39.addEventListener('click', () => {
+        Gstar39.src = "img/section2/star.svg"
+    })
+}
+if("Gstar40"){
+    Gstar40.addEventListener('click', () => {
+        Gstar40.src = "img/section2/star.svg"
+    })
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -656,8 +860,51 @@ let bag6 = document.querySelector('.bag6');
 let bag7 = document.querySelector('.bag7');
 let bag8 = document.querySelector('.bag8');
 let value = document.querySelector('.addNum');
+let Gbag1 = document.querySelector('#Gbag1')
+let Gbag2 = document.querySelector('#Gbag2')
+let Gbag3 = document.querySelector('#Gbag3')
+let Gbag4 = document.querySelector('#Gbag4')
+let Gbag5 = document.querySelector('#Gbag5')
+let Gbag6 = document.querySelector('#Gbag6')
+let Gbag7 = document.querySelector('#Gbag7')
+let Gbag8 = document.querySelector('#Gbag8')
 
 let counter = 0
+
+
+Gbag1.addEventListener('click', () => {
+    counter++;
+    value.innerText = counter;
+})
+
+Gbag2.addEventListener('click', () => {
+    counter++;
+    value.innerText = counter;
+})
+Gbag3.addEventListener('click', () => {
+    counter++;
+    value.innerText = counter;
+})
+Gbag4.addEventListener('click', () => {
+    counter++;
+    value.innerText = counter;
+})
+Gbag5.addEventListener('click', () => {
+    counter++;
+    value.innerText = counter;
+})
+Gbag6.addEventListener('click', () => {
+    counter++;
+    value.innerText = counter;
+})
+Gbag7.addEventListener('click', () => {
+    counter++;
+    value.innerText = counter;
+})
+Gbag8.addEventListener('click', () => {
+    counter++;
+    value.innerText = counter;
+})
 
 onclick.addEventListener('click', () => {
     counter++;
@@ -868,6 +1115,67 @@ topProduct.addEventListener('click',() => {
     circledSliderTwo.style.display = "block"
 })
 
+const productSection1 = document.querySelector('.product--section1')
+const productSection2 = document.querySelector('.product--section2')
+const productSection3 = document.querySelector('.product--section3')
+const productSection4 = document.querySelector('.product--section4')
+const Gsale1 = document.querySelector('.Gsale1')
+const Gsale2 = document.querySelector('.Gsale2')
+const Gsale3 = document.querySelector('.Gsale3')
+const Gsale4 = document.querySelector('.Gsale4')
+const Gsale5 = document.querySelector('.Gsale5')
+const Gsale6 = document.querySelector('.Gsale6')
+const Gsale7 = document.querySelector('.Gsale7')
+const Gsale8 = document.querySelector('.Gsale8')
+const Gsale9 = document.querySelector('.Gsale9')
+const Gsale10 = document.querySelector('.Gsale10')
+
+productSection1.addEventListener('click', () => {
+    productSection1.style.color = "#7AC751"
+    productSection2.style.color = "#C2C2C2"
+    productSection3.style.color = "#C2C2C2"
+    productSection4.style.color = "#C2C2C2"
+
+    // ** click change market icon
+
+    Gsale1.style.backgroundColor ="#7AC751"
+    Gsale2.style.backgroundColor ="#00B7F1"
+    Gsale3.style.backgroundColor ="#FF6868"
+    Gsale4.style.backgroundColor ="#7AC751"
+    Gsale5.style.backgroundColor ="#FF6868"
+    Gsale6.style.backgroundColor ="#7AC751"
+    Gsale7.style.backgroundColor ="#00B7F1"
+    Gsale8.style.backgroundColor ="#00B7F1"
+    Gsale1.innerText = "Sale"
+    Gsale2.innerText = "New"
+    Gsale3.innerText = "-30%"
+    Gsale4.innerText = "Sale"
+    Gsale5.innerText = "-30%"
+    Gsale6.innerText = "Sale"
+    Gsale7.innerText = "New"
+    Gsale8.innerText = "New"
+})
+
+productSection2.addEventListener('click', () => {
+    productSection2.style.color = "#7AC751"
+    productSection1.style.color = "#C2C2C2"
+    productSection3.style.color = "#C2C2C2"
+    productSection4.style.color = "#C2C2C2"
+})
+
+productSection3.addEventListener('click', () => {
+    productSection3.style.color = "#7AC751"
+    productSection1.style.color = "#C2C2C2"
+    productSection2.style.color = "#C2C2C2"
+    productSection4.style.color = "#C2C2C2"
+})
+
+productSection4.addEventListener('click', () => {
+    productSection4.style.color = "#7AC751"
+    productSection1.style.color = "#C2C2C2"
+    productSection2.style.color = "#C2C2C2"
+    productSection3.style.color = "#C2C2C2"
+})
 
 
 
