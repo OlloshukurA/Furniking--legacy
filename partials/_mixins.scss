@@ -1,0 +1,21 @@
+@mixin between {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin between {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin d-full {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,147 @@
+@mixin same {
+    .modern--title{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 26px;
+        color: $secondary--color;
+    }
+
+    .modern--paragraph{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+        color: $main--color;
+        margin: 8px 0;
+    }
+
+    .modern--link{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #757575;
+            .readMore{
+                margin-left: 2.96px;
+            }
+    }
+}
+
+#sale{
+    background-color: $main--color;
+}
+
+.aside{
+    width: 570px;
+    height: 249px;
+    padding: 28px 0 29px 24px;
+}
+
+.offer--modern{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: $secondary--color;
+}
+
+.offer--hot{
+    width: 227px;
+    height: 38px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #757575;
+    margin: 11px 0 20px 0;
+}
+
+.offer--get{
+    width: 227px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 29px;
+        .getR--price{
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 120%;
+            letter-spacing: 0.005em;
+            color: $main--color;
+        }
+
+        .getD--price{
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 120%;
+            letter-spacing: 0.005em;
+            text-decoration-line: line-through;
+            color: #CCCCCC;
+        }
+
+        .get--shop{
+            width: 91px;
+            height: 26px;
+            background: #7AC751;
+            border-radius: 2px;
+            border: none;
+            outline: none;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 15px;
+            color: #FFFFFF;
+        }
+}
+
+.get--deadline{
+    width: 227px;
+    display: flex;
+    justify-content: space-between;
+        .span--container{
+            width: 40px;
+            height: 40px;
+            background: $main--color;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+                .num{
+                    font-family: Rubik;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 120%;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+
+                .letter{
+                    font-family: Rubik;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 6px;
+                    line-height: 120%;
+                    text-align: center;
+                    letter-spacing: 0.005em;
+                    text-transform: uppercase;
+                    color: #FFFFFF
+                }
+        }
+}
+
+html{
+    scroll-behavior: smooth;
+  }

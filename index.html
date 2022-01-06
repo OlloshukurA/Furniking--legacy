@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniking</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="header--nav nav" id="#nav">
+                <p class="nav--title">Welcome to our online shop</p>
+                <ul class="nav--list">
+                    <select name="currency" id="currency" class="states list--select">
+                        <option value="eng" id="state">English (USD)</option>
+                        <option value="ru" id="state">Russian (Rubl)</option>
+                        <option value="uz" id="state">Uzbek (Sum)</option>
+                    </select>
+                    <li class="list--item"><a href="#" class="list--link" id="link">Login or Sign up</a></li>
+                </ul>
+            </nav>
+
+            <div class="header--info info" id="info">
+                <div class="info--logo">
+                    <img src="./img/header/header--logo.svg" alt="" class="info--img" id="logo">
+                    <h4 class="info--title">Furniking</h4>
+                </div>
+                
+                <div class="info--search_container">
+                    <input type="text" class="info--search" placeholder="Search here">
+                    <select name="category" id="category" class="categories">
+                        <option value="first" id="type">Categories</option>
+                        <option value="second" id=" type">First</option>
+                        <option value="third" id=" type">Second</option>
+                        <option value="last" id=" type">Last</option>
+                    </select>
+
+                    <div class="info--box">
+                        <img src="./img/header/search.svg" alt="" class="search--box">
+                    </div>
+                </div>
+
+                <div class="info--icons">
+                    <div id="add">
+                       <button class="addNum" >0</button>
+                        <img src="./img/header/cart.svg" alt="cart" class="info--icon" id="cartAdd">
+                    </div>
+                    <img src="./img/header/bell.svg" alt="bell" class="info--icon">
+                    <img src="./img/header/user.svg" alt="user" class="info--icon">
+                </div>
+            </div>
+
+            <div class="header--help">
+                <div class="help--collections">
+                    <h4 class="collections--list"> <img src="./img/header/header--menu.svg" alt="" id="collection--menu"> ALL COLLECTIONS</h4>
+                        <ul class="help--list" id="help--list">
+                            <li class="list--item"><a href="#" class="list--link">All</a></li>
+                            <li class="list--item"><a href="#" class="list--link">New Arrivals</a></li>
+                            <li class="list--item"><a href="#" class="list--link">Hot Sale</a></li>
+                            <li class="list--item"><a href="#" class="list--link">Furniture</a></li>
+                            <li class="list--item"><a href="#" class="list--link">Amrature</a></li>
+                            <li class="list--item"><a href="#" class="list--link">Tabble</a></li>
+                            <li class="list--item"><a href="#" class="list--link">Chair</a></li>
+                            <li class="list--item"><a href="#" class="list--link">Sofa</a></li>
+                            <li class="list--item"><a href="#" class="list--link">Mirrors</a></li>
+                            <li class="list--item"><a href="#" class="list--link">Stools</a></li>
+                            <li class="list--item"><a href="#" class="list--link">Benches</a></li>
+                        </ul>
+                </div>
+
+                <ul class="help--nav_menu">
+                    <li class="menu--item"><a href="#" class="menu--link">HOME</a></li>
+                    <li class="menu--item"><a href="#" class="menu--link">SHOP</a></li>
+                    <li class="menu--item"><a href="#" class="menu--link">BLOG</a></li>
+                    <li class="menu--item"><a href="#" class="menu--link">ABOUT</a></li>
+                    <li class="menu--item"><a href="#" class="menu--link">CONTACT US</a></li>
+                </ul>
+            </div>
+
+            <header class="header--main_content" id="slider">
+                    <div class="main--content_container">
+                        <div class="main--collection_text">
+                            <h3 class="collection--rank">TOP COLLECTIONS 2022</h3>
+                            <h2 class="collection--title">We Serve Your Dream Furniture</h2>
+                            <p class="collection--discount">Get 50% off all products</p>
+                            <button class="main--btn btn">SHOP NOW</button>
+                        </div>
+
+                        <img src="./img/header/big--chair.png" alt="bigChair" class="main--content_chair" id="big--chair">
+
+                        <div class="main--content_chairs">
+                            <div class="first--chair">
+                                <img src="./img/header/first--small_chair.png" alt="first--small_chai" class="first--small_chai">
+                                <p class="chair--price">$120</p>
+                                <p class="modern--chair">Office Desk Chair</p>
+                            </div>
+
+                            <div class="first--chair margin">
+                                <img src="./img/header/second--small_chair.png" alt="first--small_chai" class="first--small_chai">
+                                <p class="chair--price">$180</p>
+                                <p class="modern--chair">Home Alisa Sofa</p>
+                            </div>
+
+                            <div class="first--chair">
+                                <img src="./img/header/third--small_chair.png" alt="first--small_chai" class="first--small_chai">
+                                <p class="chair--price">$250</p>
+                                <p class="modern--chair">Modern Chair</p>
+                            </div>
+                        </div>
+                    </div>
+
+                   <div id="ovals">
+                        <p class="oval" id="first"></p>
+                        <p class="oval" id="second"></p>
+                        <p class="oval" id="third"></p>
+                        <p class="oval" id="last"></p>
+                   </div>
+            </header>
+        </header>
+
+        <div class="container">
+            <section class="services section">
+                <div class="service--options">
+                    <div class="free--shipping">
+                        <img src="./img/section1/free--delivery.svg" alt="" class="shipping--img">
+                        <div class="shipping--content">
+                            <h5 class="shipping--title">Free Shipping</h5>
+                            <p class="shipping--text">Orders over $100</p>
+                        </div>
+
+                    </div>
+
+                    <div class="free--shipping">
+                        <img src="./img/section1/gift.svg" alt="" class="shipping--img">
+                        <div class="shipping--content">
+                            <h5 class="shipping--title">Smart Gift Card</h5>
+                            <p class="shipping--text">Buy $1000 to get card</p>
+                        </div>
+
+                    </div>
+
+                    <div class="free--shipping">
+                        <img src="./img/section1/wallet.svg" alt="" class="shipping--img">
+                        <div class="shipping--content">
+                            <h5 class="shipping--title">Quick Payment</h5>
+                            <p class="shipping--text">100% secure payment</p>
+                        </div>
+
+                    </div>
+
+                    <div class="free--shipping">
+                        <img src="./img/section1/call-support.svg" alt="" class="shipping--img">
+                        <div class="shipping--content">
+                            <h5 class="shipping--title">24/7 Support</h5>
+                            <p class="shipping--text">Quick support</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="service--choices">
+                    <div class="choice--modern">
+                        <h4 class="modern--title">Modern Furniture Collections</h4>
+                        <p class="modern--paragraph">Starting from $500</p>
+                        <a href="#" class="modern--link">Read more <img src="./img/section1/right--arrow.svg" alt="" class="readMore"></a>
+                    </div>
+
+                    <div class="choices--affordable">
+                        <div class="affordable--bookcase">
+                            <h4 class="modern--title">Geometric Bookcase</h4>
+                            <p class="modern--paragraph">Up to 20% discount</p>
+                            <a href="#" class="modern--link">Read more <img src="./img/section1/right--arrow.svg" alt="" class="readMore"></a>
+                        </div>
+                        <div class="affordable--sofa">
+                            <h4 class="modern--title">Minimal Sofa collections </h4>
+                            <p class="modern--paragraph">Sale upto 40% discount</p>
+                            <a href="#" class="modern--link">Read more <img src="./img/section1/right--arrow.svg" alt="" class="readMore"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="trending section">
+                <p class="trending--main_title">TRENDING</p>
+                <div class="trending--product_ranks">
+                    <p id="product--status_first" class="ranked--product_types first--ranked">Top Products</p>
+                    <p id="product--status_second" class="ranked--product_types second--ranked">New Arrivals</p>
+                    <p id="product--status_third" class="ranked--product_types third--ranked">Best Sellers</p>
+                </div>
+
+                <div class="trending--chair_group" id="second--slider_group">
+                    <div class="chair--group">
+                        <div class="top--chair">
+                           
+                            <div class="chair--img_container">
+                                <div class="hover--images" id="hoverImg">
+                                    <img src="./img/section2/heart.svg" alt="" id="heart">
+                                    <img src="./img/section2/shopping--bag.svg" alt="" id="bag">
+                                    <img src="./img/section2/refresh.svg" alt="" id="refresh">
+                                    <img src="./img/section2/watcher.svg" alt="" id="watcher">
+                                </div>
+                                <img src="./img/section2/1.png" alt="" class="main--img" id="change--img_one">
+                                <button class="sale1">New</button>
+                            </div>
+                            <p class="chair--title">Chair</p>
+                            <p class="chair--type" id="chair--type">Minimal LCD chair</p>
+                            <div class="chair--info">
+                               <div class="chair--price">
+                                    <p class="chair--discounted_price" id="changeDisPrice">$180</p>
+                                    <span class="chair--real_price" id="changeRealPrice">$250</span>
+                               </div>
+                                <div class="chair--rating">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star1">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star2">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star3">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star4">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star5">
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="top--chair">
+
+                            <div class="chair--img_container" id="f--con">
+                                <div class="hover--images" id="hoverImg">
+                                    <img src="./img/section2/heart.svg" alt="" id="heart">
+                                    <img src="./img/section2/shopping--bag.svg" alt="" id="bag" class="bag2">
+                                    <img src="./img/section2/refresh.svg" alt="" id="refresh">
+                                    <img src="./img/section2/watcher.svg" alt="" id="watcher">
+                                </div>
+
+                                <img src="./img/section2/2.png" alt="" class="main--img" id="change--img_two">
+                                <button class="sale2">New</button>
+                            </div>
+                             <p class="chair--title">Chair</p>
+                            <p class="chair--type" id="chair2">Minimal iconic chair</p>
+                            <div class="chair--info">
+                                <div class="chair--price">
+                                    <p class="chair--discounted_price" id="changeDisPrice2">$120</p>
+                                    <span class="chair--real_price" id="changeRealPrice2">$150</span>
+                               </div>                               
+                                <div class="chair--rating">
+                                   <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star6">
+                                   <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star7">
+                                   <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star8">
+                                   <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star9">
+                                   <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star10">
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="top--chair">
+                            <div class="chair--img_container" id="s--con">
+                                <div class="hover--images" id="hoverImg">
+                                    <img src="./img/section2/heart.svg" alt="" id="heart">
+                                    <img src="./img/section2/shopping--bag.svg" alt="" id="bag" class="bag3">
+                                    <img src="./img/section2/refresh.svg" alt="" id="refresh">
+                                    <img src="./img/section2/watcher.svg" alt="" id="watcher">
+                                </div>
+                                <img src="./img/section2/3.png" alt="" class="main--img" id="change--img_three">
+                                <button id="sale" class="sale3">Sale</button>
+                            </div>
+                            <p class="chair--title">Chair</p>
+                            <p class="chair--type" id="chair3">Dining chairs</p>
+                            <div class="chair--info">
+                                <div class="chair--price">
+                                    <p class="chair--discounted_price" id="changeDisPrice3">$100</p>
+                                    <span class="chair--real_price" id="changeRealPrice3">$120</span>
+                               </div>
+                                <div class="chair--rating">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star11">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star12">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star13">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star14">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star15">
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="top--chair">
+                            <div class="chair--img_container" id="th--con">
+                                <div class="hover--images" id="hoverImg">
+                                    <img src="./img/section2/heart.svg" alt="" id="heart">
+                                    <img src="./img/section2/shopping--bag.svg" alt="" id="bag" class="bag4">
+                                    <img src="./img/section2/refresh.svg" alt="" id="refresh">
+                                    <img src="./img/section2/watcher.svg" alt="" id="watcher">
+                                </div>
+                                <img src="./img/section2/4.png" alt="" class="main--img" id="change--img_four">
+                                <button id="sale" class="sale4">Sale</button>
+                            </div>
+                            <p class="chair--title">Chair</p>
+                            <p class="chair--type" id="chair4">Buskbo armchair </p>
+                            <div class="chair--info">
+                                <div class="chair--price">
+                                    <p class="chair--discounted_price" id="changeDisPrice4">$130</p>
+                                    <span class="chair--real_price" id="changeRealPrice4">$150</span>
+                               </div>
+                                <div class="chair--rating">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star16">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star17">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star18">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star19">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star20">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="chair--group">
+                        <div class="top--chair">
+                            <div class="chair--img_container">
+                                <div class="hover--images" id="hoverImg">
+                                    <img src="./img/section2/heart.svg" alt="" id="heart">
+                                    <img src="./img/section2/shopping--bag.svg" alt="" id="bag" class="bag5">
+                                    <img src="./img/section2/refresh.svg" alt="" id="refresh">
+                                    <img src="./img/section2/watcher.svg" alt="" id="watcher">
+                                </div>
+                                <img src="./img/section2/5.png" alt="" class="secondary--img5" id="change--img_five">
+                                <button id="sale" class="sale5">Sale</button>
+                            </div>
+                            <p class="chair--title">Chair</p>
+                            <p class="chair--type" id="chair5">Modern chairs</p>
+                            <div class="chair--info">
+                                <div class="chair--price">
+                                    <p class="chair--discounted_price" id="changeDisPrice5">$100</p>
+                                    <span class="chair--real_price" id="changeRealPrice5">$120</span>
+                               </div>
+                                <div class="chair--rating">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star21">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star22">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star23">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star24">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star25">
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="top--chair">
+                            <div class="chair--img_container" id="f--con">
+                                <div class="hover--images" id="hoverImg">
+                                    <img src="./img/section2/heart.svg" alt="" id="heart">
+                                    <img src="./img/section2/shopping--bag.svg" alt="" id="bag" class="bag6">
+                                    <img src="./img/section2/refresh.svg" alt="" id="refresh">
+                                    <img src="./img/section2/watcher.svg" alt="" id="watcher">
+                                </div>
+                                <img src="./img/section2/6.png" alt="" class="main--img" id="change--img_sexth">
+                                <button id="sale" class="sale6">Sale</button>
+                            </div>
+                            <p class="chair--title">Chair</p>
+                            <p class="chair--type" id="chair6">Plastic dining chair</p>
+                            <div class="chair--info">
+                                <div class="chair--price">
+                                    <p class="chair--discounted_price" id="changeDisPrice6">$120</p>
+                                    <span class="chair--real_price" id="changeRealPrice6">$150</span>
+                               </div>
+                                <div class="chair--rating">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star26">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star27">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star28">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star29">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star30">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="top--chair">
+                            <div class="chair--img_container" id="s--con">
+                                <div class="hover--images" id="hoverImg">
+                                    <img src="./img/section2/heart.svg" alt="" id="heart">
+                                    <img src="./img/section2/shopping--bag.svg" alt="" id="bag" class="bag7">
+                                    <img src="./img/section2/refresh.svg" alt="" id="refresh">
+                                    <img src="./img/section2/watcher.svg" alt="" id="watcher">
+                                </div>
+                                <img src="./img/section2/7.png" alt="" class="main--img" id="change--img_seven">
+                                <button id="new7">New</button>
+                            </div>
+                            <p class="chair--title">Chair</p>
+                            <p class="chair--type" id="chair7">Minimal Wood chair</p>
+                            <div class="chair--info">
+                                <div class="chair--price">
+                                    <p class="chair--discounted_price" id="changeDisPrice7">$180</p>
+                                    <span class="chair--real_price" id="changeRealPrice7">$250</span>
+                               </div>
+                                <div class="chair--rating">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star31">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star32">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star33">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star34">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star35">
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="top--chair">
+                            <div class="chair--img_container" id="th--con">
+                                <div class="hover--images" id="hoverImg">
+                                    <img src="./img/section2/heart.svg" alt="" id="heart">
+                                    <img src="./img/section2/shopping--bag.svg" alt="" id="bag" class="bag8">
+                                    <img src="./img/section2/refresh.svg" alt="" id="refresh">
+                                    <img src="./img/section2/watcher.svg" alt="" id="watcher">
+                                </div>
+                                <img src="./img/section2/8.png" alt="" class="main--img" id="change--img_eight">
+                                <button id="new8">New</button>
+                            </div>
+                            <p class="chair--title">Chair</p>
+                            <p class="chair--type" id="chair8">Elegent wood chair</p>
+                            <div class="chair--info">
+                                <div class="chair--price">
+                                    <p class="chair--discounted_price" id="changeDisPrice8">$120</p>
+                                    <span class="chair--real_price" id="changeRealPrice8">$150</span>
+                               </div>
+                                <div class="chair--rating">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star36">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star37">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star38">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star39">
+                                    <img src="./img/section2/star--grayed.svg" alt="" class="light" id="star40">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slider--container">
+                        <img src="./img/section2/grayed--slider.svg" alt="" class="circled--slider" id="circled--slider_one">
+                        <img src="./img/section2/grayed--slider.svg" alt="" class="circled--slider" id="circled--slider_two">
+                    </div>
+                </div>
+            </section>
+
+            <section class="offer section">
+                <h1 class="offer--main_title">SPECIAL OFFER</h1>
+                <div class="offer--container">
+                    <div class="offer--container-left aside">
+                       <button class="offer--discount">40% off</button>
+                       <h1 class="offer--modern">Living Room Furniture</h1>
+                       <p class="offer--hot">You don't have a chair. Are you ready for growth? Shop with us 40% discount!</p>
+                       <div class="offer--get">
+                           <p class="getR--price">$150</p>
+                           <p class="getD--price">$250</p>
+                           <button class="get--shop">SHOP NOW</button>
+                       </div>
+
+                           <div class="get--deadline">
+                            <span class="span--container"><span class="num" id="kun">00</span> <span class="letter">DAYS</span></span>
+                            <span class="span--container"><span class="num" id="soat">00</span> <span class="letter">HRS</span></span>
+                            <span class="span--container"><span class="num" id="minut">00</span> <span class="letter">MIN</span></span>
+                            <span class="span--container"><span class="num" id="sekund">00</span> <span class="letter">SECS</span></span>
+                           </div>
+                    </div>
+                    <div class="offer--container-right aside">
+                        <button class="offer--discount">50% off</button>
+                        <h1 class="offer--modern">Modern chair</h1>
+                        <p class="offer--hot">Hot chairs of the modern era are now available in our stock.</p>
+                        <div class="offer--get">
+                            <p class="getR--price">$75</p>
+                            <p class="getD--price">$150</p>
+                            <button class="get--shop">SHOP NOW</button>
+
+                        </div>
+                            <div class="get--deadline">
+                                <span class="span--container"><span class="num" id="days">00</span> <span class="letter">DAYS</span></span>
+                                <span class="span--container"><span class="num" id="hours">00</span> <span class="letter">HRS</span></span>
+                                <span class="span--container"><span class="num" id="minutes">00</span> <span class="letter">MIN</span></span>
+                                <span class="span--container"><span class="num" id="seconds">00</span> <span class="letter">SECS</span></span>
+                            </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="scrollUp">
+            <box-icon name='chevron-up' id="up" color = "#fff"></box-icon>
+        </div>
+    </div>
+    <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
