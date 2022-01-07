@@ -1255,11 +1255,7 @@ productSection1.addEventListener('click', () => {
     disPrice7.innerText = "$180"
     disPrice8.innerText = "$120"
 
-    pageChanger.style.display = "flex"
-    thirdTop.style.display = "block"
-    fourthTop.style.display = "block"
-    topAround.style.display = "flex"
-    topAround.style.justifyContent = "space-between"
+    secondChairGroup.style.display = "flex"
 
 })
 
@@ -1362,11 +1358,7 @@ productSection2.addEventListener('click', () => {
     // ** Go next section
 
     pageChanger.style.display = "none"
-
-    thirdTop.style.display = "block"
-    fourthTop.style.display = "block"
-    topAround.style.display = "flex"
-    topAround.style.justifyContent = "space-between"
+    secondChairGroup.style.display = "flex"
 
 })
 
@@ -1464,13 +1456,9 @@ productSection3.addEventListener('click', () => {
     disPrice8.innerText = "$120"
 
     // ** Go next section
+    secondChairGroup.style.display = "flex"
 
     pageChanger.style.display = "none"
-
-    thirdTop.style.display = "block"
-    fourthTop.style.display = "block"
-    topAround.style.display = "flex"
-    topAround.style.justifyContent = "space-between"
 })
 
 productSection4.addEventListener('click', () => {
@@ -1491,28 +1479,43 @@ productSection4.addEventListener('click', () => {
     // ** Img sources
     GchangeImg1.src = "img/section4/3.png"
     GchangeImg2.src = "img/section4/5.png"
+    GchangeImg3.src = "img/section4/8.png"
+    GchangeImg4.src = "img/section2/7.png"
     // ** Title
     Gtitle1.innerText = "Sofa"
-    Gtitle2.innerText = "Chair"
+    Gtitle2.innerText = "Storage"
+    Gtitle3.innerText = "Furniture"
+    Gtitle4.innerText = "Chair"
 
     // ** Top left area background
     Gsale1.style.backgroundColor ="#FF6868"
     Gsale2.style.backgroundColor ="#FF6868"
+    Gsale3.style.backgroundColor ="#FF6868"
+    Gsale4.style.backgroundColor ="#FF6868"
 
     // ** Top left area text ("Sale" or "New")
     Gsale1.innerText = "-30%"
     Gsale2.innerText = "-30%"
+    Gsale3.innerText = "-30%"
+    Gsale4.innerText = "-30%"
 
      // ** Change chair type
     Gchairtype1.innerText = "Microfiber Sofa"
-    Gchairtype2.innerText = "Acacia Wood Chairs"
+    Gchairtype2.innerText = "Juno-Hinged Lid"
+    Gchairtype3.innerText = "Delicia 3 Living Room"
+    Gchairtype4.innerText = "Minimal Wood chair"
+
     // ** Change chair real price
     GchangeRealPrice1.innerText = "$150"
     GchangeRealPrice2.innerText = "$120"
+    GchangeRealPrice3.innerText = "$170"
+    GchangeRealPrice4.innerText = "$220"
 
     // ** Change discounted price of chair
     disPrice1.innerText = "$130"
     disPrice2.innerText = "$100"
+    disPrice3.innerText = "$150"
+    disPrice4.innerText = "$170"
 
     // ** Chair group
     secondChairGroup.style.display = "none"
@@ -1522,13 +1525,7 @@ productSection4.addEventListener('click', () => {
     pageChanger.style.display = "none"
 
     // ** tops
-    thirdTop.style.display = "none"
-    fourthTop.style.display = "none"
-    topAround.style.display = "flex"
-    topAround.style.justifyContent = "space-around"
 })
-
-
 
 
 
