@@ -1256,6 +1256,10 @@ productSection1.addEventListener('click', () => {
     disPrice8.innerText = "$120"
 
     pageChanger.style.display = "flex"
+    thirdTop.style.display = "block"
+    fourthTop.style.display = "block"
+    topAround.style.display = "flex"
+    topAround.style.justifyContent = "space-between"
 
 })
 
@@ -1358,6 +1362,11 @@ productSection2.addEventListener('click', () => {
     // ** Go next section
 
     pageChanger.style.display = "none"
+
+    thirdTop.style.display = "block"
+    fourthTop.style.display = "block"
+    topAround.style.display = "flex"
+    topAround.style.justifyContent = "space-between"
 
 })
 
