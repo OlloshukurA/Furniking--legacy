@@ -1130,6 +1130,58 @@ const Gsale8 = document.querySelector('.Gsale8')
 const Gsale9 = document.querySelector('.Gsale9')
 const Gsale10 = document.querySelector('.Gsale10')
 
+const GchangeImg1 = document.getElementById('Gchange--img_one')
+const GchangeImg2 = document.getElementById('Gchange--img_two')
+const GchangeImg3 = document.getElementById('Gchange--img_three')
+const GchangeImg4 = document.getElementById('Gchange--img_four')
+const GchangeImg5 = document.getElementById('Gchange--img_five')
+const GchangeImg6 = document.getElementById('Gchange--img_sexth')
+const GchangeImg7 = document.getElementById('Gchange--img_seven')
+const GchangeImg8 = document.getElementById('Gchange--img_eight')
+
+const Gtitle1 = document.getElementById('Gtitle1')
+const Gtitle2 = document.getElementById('Gtitle2')
+const Gtitle3 = document.getElementById('Gtitle3')
+const Gtitle4 = document.getElementById('Gtitle4')
+const Gtitle5 = document.getElementById('Gtitle5')
+const Gtitle6 = document.getElementById('Gtitle6')
+const Gtitle7 = document.getElementById('Gtitle7')
+const Gtitle8 = document.getElementById('Gtitle8')
+
+const Gchairtype1 = document.getElementById('Gchair--type1');
+const Gchairtype2 = document.getElementById('Gchair--type2');
+const Gchairtype3 = document.getElementById('Gchair--type3');
+const Gchairtype4 = document.getElementById('Gchair--type4');
+const Gchairtype5 = document.getElementById('Gchair--type5');
+const Gchairtype6 = document.getElementById('Gchair--type6');
+const Gchairtype7 = document.getElementById('Gchair--type7');
+const Gchairtype8 = document.getElementById('Gchair--type8');
+
+const GchangeRealPrice1 = document.getElementById('GchangeRealPrice1');
+const GchangeRealPrice2 = document.getElementById('GchangeRealPrice2');
+const GchangeRealPrice3 = document.getElementById('GchangeRealPrice3');
+const GchangeRealPrice4 = document.getElementById('GchangeRealPrice4');
+const GchangeRealPrice5 = document.getElementById('GchangeRealPrice5');
+const GchangeRealPrice6 = document.getElementById('GchangeRealPrice6');
+const GchangeRealPrice7 = document.getElementById('GchangeRealPrice7');
+const GchangeRealPrice8 = document.getElementById('GchangeRealPrice8');
+
+const disPrice1 = document.getElementById('GchangeDisPrice1');
+const disPrice2 = document.getElementById('GchangeDisPrice2');
+const disPrice3 = document.getElementById('GchangeDisPrice3');
+const disPrice4 = document.getElementById('GchangeDisPrice4');
+const disPrice5 = document.getElementById('GchangeDisPrice5');
+const disPrice6 = document.getElementById('GchangeDisPrice6');
+const disPrice7 = document.getElementById('GchangeDisPrice7');
+const disPrice8 = document.getElementById('GchangeDisPrice8');
+
+const pageChanger = document.getElementById('page--changer');
+const secondChairGroup = document.getElementById('second--chair_group');
+const thirdTop = document.getElementById("third--top");
+const fourthTop = document.getElementById("fourth--top");
+const topAround = document.getElementById('top--around');
+
+
 productSection1.addEventListener('click', () => {
     productSection1.style.color = "#7AC751"
     productSection2.style.color = "#C2C2C2"
@@ -1137,7 +1189,6 @@ productSection1.addEventListener('click', () => {
     productSection4.style.color = "#C2C2C2"
 
     // ** click change market icon
-
     Gsale1.style.backgroundColor ="#7AC751"
     Gsale2.style.backgroundColor ="#00B7F1"
     Gsale3.style.backgroundColor ="#FF6868"
@@ -1154,13 +1205,160 @@ productSection1.addEventListener('click', () => {
     Gsale6.innerText = "Sale"
     Gsale7.innerText = "New"
     Gsale8.innerText = "New"
+
+    GchangeImg1.src = "img/section4/1.png"
+    GchangeImg2.src = "img/section4/2.png"
+    GchangeImg3.src = "img/section4/3.png"
+    GchangeImg4.src = "img/section4/4.png"
+    GchangeImg5.src = "img/section4/5.png"
+    GchangeImg6.src = "img/section4/6.png"
+    GchangeImg7.src = "img/section4/7.png"
+    GchangeImg8.src = "img/section4/8.png"
+
+    // ** Title
+    Gtitle1.innerText = "Chair"
+    Gtitle2.innerText = "Sofa"
+    Gtitle3.innerText = "Sofa"
+    Gtitle4.innerText = "Table"
+    Gtitle5.innerText = "Chair"
+    Gtitle6.innerText = "Bench"
+    Gtitle7.innerText = "Storage"
+    Gtitle8.innerText = "Furniture"
+
+    // ** Change chair type
+    Gchairtype1.innerText = "Minimal LCD chair"
+    Gchairtype2.innerText = "Modern Sofa"
+    Gchairtype3.innerText = "Microfiber Sofa"
+    Gchairtype4.innerText = "Wood Coffee Tables"
+    Gchairtype5.innerText = "Acacia Wood Club Chairs"
+    Gchairtype6.innerText = "Amalia Cowhide Bench"
+    Gchairtype7.innerText = "Juno-Hinged Lid Storage"
+    Gchairtype8.innerText = "Delicia 3 Living Room"
+
+    // ** Change chair real price
+    GchangeRealPrice1.innerText = "$250"
+    GchangeRealPrice2.innerText = "$150"
+    GchangeRealPrice3.innerText = "$150"
+    GchangeRealPrice4.innerText = "$120"
+    GchangeRealPrice5.innerText = "$120"
+    GchangeRealPrice6.innerText = "$150"
+    GchangeRealPrice7.innerText = "$250"
+    GchangeRealPrice8.innerText = "$150"
+
+    // ** Change discounted price of chair
+    disPrice1.innerText = "$180"
+    disPrice2.innerText = "$120"
+    disPrice3.innerText = "$130"
+    disPrice4.innerText = "$100"
+    disPrice5.innerText = "$100"
+    disPrice6.innerText = "$130"
+    disPrice7.innerText = "$180"
+    disPrice8.innerText = "$120"
+
+    pageChanger.style.display = "flex"
+
 })
 
 productSection2.addEventListener('click', () => {
+
+    // ** Main sections
     productSection2.style.color = "#7AC751"
     productSection1.style.color = "#C2C2C2"
     productSection3.style.color = "#C2C2C2"
     productSection4.style.color = "#C2C2C2"
+
+    // ** Img sizes
+    GchangeImg1.style.width = "269.03px" 
+    GchangeImg1.style.height = "287.82px" 
+    GchangeImg2.style.width = "269.03px" 
+    GchangeImg2.style.height = "287.82px" 
+    GchangeImg3.style.width = "269.03px" 
+    GchangeImg3.style.height = "287.82px" 
+    GchangeImg4.style.width = "269.03px" 
+    GchangeImg4.style.height = "287.82px" 
+    GchangeImg5.style.width = "269.03px" 
+    GchangeImg5.style.height = "287.82px" 
+    GchangeImg6.style.width = "269.03px" 
+    GchangeImg6.style.height = "287.82px" 
+    GchangeImg7.style.width = "269.03px" 
+    GchangeImg7.style.height = "287.82px" 
+    GchangeImg8.style.width = "269.03px" 
+    GchangeImg8.style.height = "287.82px" 
+    
+    // ** Img sources
+    GchangeImg1.src = "img/section4/1.png"
+    GchangeImg2.src = "img/section4/4.png"
+    GchangeImg3.src = "img/section4/6.png"
+    GchangeImg4.src = "img/section4/b1.png"
+    GchangeImg5.src = "img/section4/b2.png"
+    GchangeImg6.src = "img/section4/b3.png"
+    GchangeImg7.src = "img/section4/b4.png"
+    GchangeImg8.src = "img/section4/b5.png"
+
+     // ** Title
+     Gtitle1.innerText = "Chair"
+     Gtitle2.innerText = "Table"
+     Gtitle3.innerText = "Bench"
+     Gtitle4.innerText = "Table"
+     Gtitle5.innerText = "Sofa"
+     Gtitle6.innerText = "Sofa"
+     Gtitle7.innerText = "Sofa"
+     Gtitle8.innerText = "Chair"
+
+    // ** Top left area background
+    Gsale1.style.backgroundColor ="#7AC751"
+    Gsale2.style.backgroundColor ="#7AC751"
+    Gsale3.style.backgroundColor ="#7AC751"
+    Gsale4.style.backgroundColor ="#7AC751"
+    Gsale5.style.backgroundColor ="#7AC751"
+    Gsale6.style.backgroundColor ="#7AC751"
+    Gsale7.style.backgroundColor ="#7AC751"
+    Gsale8.style.backgroundColor ="#7AC751"
+
+    // ** Top left area text ("Sale" or "New")
+    Gsale1.innerText = "Sale"
+    Gsale2.innerText = "Sale"
+    Gsale3.innerText = "Sale"
+    Gsale4.innerText = "Sale"
+    Gsale5.innerText = "Sale"
+    Gsale6.innerText = "Sale"
+    Gsale7.innerText = "Sale"
+    Gsale8.innerText = "Sale"
+
+     // ** Change chair type
+    Gchairtype1.innerText = "Minimal LCD chair"
+    Gchairtype2.innerText = "Wood Coffee Tables"
+    Gchairtype3.innerText = "Amalia Cowhide Bench"
+    Gchairtype4.innerText = "Modern white sofa"
+    Gchairtype5.innerText = "Classic yellow sofa"
+    Gchairtype6.innerText = "Chocolate sofa"
+    Gchairtype7.innerText = "Modern guests sofa"
+    Gchairtype8.innerText = "Modern LCD chair"
+
+    // ** Change chair real price
+    GchangeRealPrice1.innerText = "$250"
+    GchangeRealPrice2.innerText = "$120"
+    GchangeRealPrice3.innerText = "$150"
+    GchangeRealPrice4.innerText = "$180"
+    GchangeRealPrice5.innerText = "$250"
+    GchangeRealPrice6.innerText = "$170"
+    GchangeRealPrice7.innerText = "$220"
+    GchangeRealPrice8.innerText = "$110"
+
+    // ** Change discounted price of chair
+    disPrice1.innerText = "$180"
+    disPrice2.innerText = "$100"
+    disPrice3.innerText = "$130"
+    disPrice4.innerText = "$150"
+    disPrice5.innerText = "$200"
+    disPrice6.innerText = "$150"
+    disPrice7.innerText = "$190"
+    disPrice8.innerText = "$100"
+
+    // ** Go next section
+
+    pageChanger.style.display = "none"
+
 })
 
 productSection3.addEventListener('click', () => {
@@ -1168,14 +1366,160 @@ productSection3.addEventListener('click', () => {
     productSection1.style.color = "#C2C2C2"
     productSection2.style.color = "#C2C2C2"
     productSection4.style.color = "#C2C2C2"
+
+    GchangeImg1.style.width = "269.03px" 
+    GchangeImg1.style.height = "287.82px" 
+    GchangeImg2.style.width = "269.03px" 
+    GchangeImg2.style.height = "287.82px" 
+    GchangeImg3.style.width = "269.03px" 
+    GchangeImg3.style.height = "287.82px" 
+    GchangeImg4.style.width = "269.03px" 
+    GchangeImg4.style.height = "287.82px" 
+    GchangeImg5.style.width = "269.03px" 
+    GchangeImg5.style.height = "287.82px" 
+    GchangeImg6.style.width = "269.03px" 
+    GchangeImg6.style.height = "287.82px" 
+    GchangeImg7.style.width = "269.03px" 
+    GchangeImg7.style.height = "287.82px" 
+    GchangeImg8.style.width = "269.03px" 
+    GchangeImg8.style.height = "287.82px" 
+
+    // ** Img sources
+    GchangeImg1.src = "img/section4/2.png"
+    GchangeImg2.src = "img/section4/7.png"
+    GchangeImg3.src = "img/section4/8.png"
+    GchangeImg4.src = "img/section2/7.png"
+    GchangeImg5.src = "img/section4/n2.png"
+    GchangeImg6.src = "img/section2/1.png"
+    GchangeImg7.src = "img/section2/2.png"
+    GchangeImg8.src = "img/section2/8.png"
+
+    // ** Title
+    Gtitle1.innerText = "Sofa"
+    Gtitle2.innerText = "Storage"
+    Gtitle3.innerText = "Furniture"
+    Gtitle4.innerText = "Chair"
+    Gtitle5.innerText = "Sofa"
+    Gtitle6.innerText = "Chair"
+    Gtitle7.innerText = "Chair"
+    Gtitle8.innerText = "Chair"
+
+    // ** Top left area background
+    Gsale1.style.backgroundColor ="#00B7F1"
+    Gsale2.style.backgroundColor ="#00B7F1"
+    Gsale3.style.backgroundColor ="#00B7F1"
+    Gsale4.style.backgroundColor ="#00B7F1"
+    Gsale5.style.backgroundColor ="#00B7F1"
+    Gsale6.style.backgroundColor ="#00B7F1"
+    Gsale7.style.backgroundColor ="#00B7F1"
+    Gsale8.style.backgroundColor ="#00B7F1"
+
+    // ** Top left area text ("Sale" or "New")
+    Gsale1.innerText = "New"
+    Gsale2.innerText = "New"
+    Gsale3.innerText = "New"
+    Gsale4.innerText = "New"
+    Gsale5.innerText = "New"
+    Gsale6.innerText = "New"
+    Gsale7.innerText = "New"
+    Gsale8.innerText = "New"
+
+     // ** Change chair type
+    Gchairtype1.innerText = "Modern sofa"
+    Gchairtype2.innerText = "Juno-Hinged Lid"
+    Gchairtype3.innerText = "Delicia 3 Living Room"
+    Gchairtype4.innerText = "Minimal Wood chair"
+    Gchairtype5.innerText = "Classic red sofa"
+    Gchairtype6.innerText = "Minimal LCD chair"
+    Gchairtype7.innerText = "Minimal iconic chair"
+    Gchairtype8.innerText = "Elegent wood chair"
+
+    // ** Change chair real price
+    GchangeRealPrice1.innerText = "$150"
+    GchangeRealPrice2.innerText = "$250"
+    GchangeRealPrice3.innerText = "$150"
+    GchangeRealPrice4.innerText = "$250"
+    GchangeRealPrice5.innerText = "$200"
+    GchangeRealPrice6.innerText = "$170"
+    GchangeRealPrice7.innerText = "$250"
+    GchangeRealPrice8.innerText = "$150"
+
+    // ** Change discounted price of chair
+    disPrice1.innerText = "$120"
+    disPrice2.innerText = "$180"
+    disPrice3.innerText = "$120"
+    disPrice4.innerText = "$180"
+    disPrice5.innerText = "$170"
+    disPrice6.innerText = "$150"
+    disPrice7.innerText = "$180"
+    disPrice8.innerText = "$120"
+
+    // ** Go next section
+
+    pageChanger.style.display = "none"
+
+    thirdTop.style.display = "block"
+    fourthTop.style.display = "block"
+    topAround.style.display = "flex"
+    topAround.style.justifyContent = "space-between"
 })
 
 productSection4.addEventListener('click', () => {
     productSection4.style.color = "#7AC751"
     productSection1.style.color = "#C2C2C2"
     productSection2.style.color = "#C2C2C2"
-    productSection3.style.color = "#C2C2C2"
+    productSection3.style.color = "#C2C2C2" 
+
+    GchangeImg1.style.width = "269.03px" 
+    GchangeImg1.style.height = "287.82px" 
+    GchangeImg2.style.width = "269.03px" 
+    GchangeImg2.style.height = "287.82px" 
+    GchangeImg3.style.width = "269.03px" 
+    GchangeImg3.style.height = "287.82px" 
+    GchangeImg4.style.width = "269.03px" 
+    GchangeImg4.style.height = "287.82px" 
+
+    // ** Img sources
+    GchangeImg1.src = "img/section4/3.png"
+    GchangeImg2.src = "img/section4/5.png"
+    // ** Title
+    Gtitle1.innerText = "Sofa"
+    Gtitle2.innerText = "Chair"
+
+    // ** Top left area background
+    Gsale1.style.backgroundColor ="#FF6868"
+    Gsale2.style.backgroundColor ="#FF6868"
+
+    // ** Top left area text ("Sale" or "New")
+    Gsale1.innerText = "-30%"
+    Gsale2.innerText = "-30%"
+
+     // ** Change chair type
+    Gchairtype1.innerText = "Microfiber Sofa"
+    Gchairtype2.innerText = "Acacia Wood Chairs"
+    // ** Change chair real price
+    GchangeRealPrice1.innerText = "$150"
+    GchangeRealPrice2.innerText = "$120"
+
+    // ** Change discounted price of chair
+    disPrice1.innerText = "$130"
+    disPrice2.innerText = "$100"
+
+    // ** Chair group
+    secondChairGroup.style.display = "none"
+
+    // ** Go next section
+
+    pageChanger.style.display = "none"
+
+    // ** tops
+    thirdTop.style.display = "none"
+    fourthTop.style.display = "none"
+    topAround.style.display = "flex"
+    topAround.style.justifyContent = "space-around"
 })
+
+
 
 
 

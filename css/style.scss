@@ -784,34 +784,90 @@ body {
             margin-left: 66px;
           }
         }
+        
       }
 
-      .product--sale_galery {
-        .sale--galery {
-          .sale--galery_item {
-            width: 269.03px;
-            height: 287.82px;
+      .trending--chair_group{
+        .change--pages{
+          display: flex;
+          justify-content: end;
+          margin: 70px 0 120px 0;
+          .next--page{
+            width: 141px;
+            height: 44px;
+            background-color: $main--color;
+            border-radius: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            padding-left: 20px;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 23px;
+            color: #FFFFFF;
+            margin-right: 143px;
+          }
+
+          .change--page_num{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+              .num--page{
+                font-family: Mulish;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 130%;
+                letter-spacing: 0.008em;
+                color: #757575;
+              }
+
+              #num--one{
+                width: 58px;
+                height: 29px;
+                background: #F8FAFB;
+                border: 1px solid #CCCCCC;
+                border-radius: 2px;
+                margin: 0 19px 0 9px;
+                font-family: Mulish;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 130%;
+                letter-spacing: 0.008em;
+                color: #757575;
+              }
+
+              .allPage{
+                width: 55px;
+                height: 23px;
+                font-family: Mulish;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 130%;
+                letter-spacing: 0.008em;
+                color: #757575;
+                margin-right: 23px;
+              }
+
+              .changing--arrows{
+                cursor: pointer;
+                width: 58px;
+                height: 29px;
+                background: #7AC751;
+                border-radius: 2px;
+              }
           }
         }
+        
       }
+
+      
     }
   }
 
-  .scrollUp {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #7ac751;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 80%;
-    right: 2%;
-    cursor: pointer;
-    opacity: 0;
-    &.active {
-      opacity: 1;
-    }
-  }
+ 
 }
