@@ -1515,7 +1515,7 @@ productSection4.addEventListener('click', () => {
     disPrice1.innerText = "$130"
     disPrice2.innerText = "$100"
     disPrice3.innerText = "$150"
-    disPrice4.innerText = "$170"
+    disPrice4.innerText = "$150"
 
     // ** Chair group
     secondChairGroup.style.display = "none"
