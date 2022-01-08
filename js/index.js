@@ -1534,7 +1534,21 @@ productSection4.addEventListener('click', () => {
 })
 
 
+// ** Comments section slider as possible
 
+const comment1 = document.getElementById('comment1');
+const comment2 = document.getElementById('comment2');
+const comment3 = document.getElementById('comment3');
+const commentLeft = document.getElementById("comment--left_arrow");
+const commentRight = document.getElementById("comment--right_arrow");
 
+comment1 = 1;
+comment1 = 2;
+comment1 = 3;
+i = 0
+
+commentLeft.addEventListener('click', () => {
+    i++;
+})
 
 

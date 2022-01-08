@@ -812,6 +812,10 @@ body {
             line-height: 23px;
             color: #FFFFFF;
             margin-right: 143px;
+              #right--arrow{
+                width: 20px;
+                height: 20px;
+              }
           }
 
           .change--page_num{
@@ -871,7 +875,309 @@ body {
 
       
     }
+
+    .customer{
+      margin-bottom: 115px;
+      .customer--title{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 45px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #555555;
+        margin-bottom: 90px;
+      }
+
+      .customer--comment_container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        #comment--left_arrow{
+         font-size: 36px;
+         cursor: pointer;
+        }
+
+        .comment--container{
+          width: 816px;
+          height: 312px;
+          background: #F8FAFB;
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+          border-radius: 8px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+            img{
+              position: relative;
+              top: -44px;
+              width: 88px;
+              height: 88px;
+            }
+
+            p{
+              width: 566px;
+              height: 96px;
+              font-family: DM Sans;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 16px;
+              line-height: 150%;
+              text-align: center;
+              letter-spacing: 0.005em;
+              color: #515151;
+            }
+
+            h3{
+              margin: 32px 0 8px 0;
+              font-family: Mulish;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 24px;
+              line-height: 120%;
+              letter-spacing: 0.005em;
+              color: #555555;
+            }
+
+            h4{
+              font-family: Rubik;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 16px;
+              line-height: 125%;
+              letter-spacing: 0.005em;
+              color: #515151;
+            }
+        }
+
+        #comment--right_arrow{
+          font-size: 36px;
+          cursor: pointer;
+         }
+
+      }
+    }
+
+    .lastest{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      margin-bottom: 115px;
+      h2{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 45px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #555555;
+        text-align: center;
+        margin-bottom: 56px;
+      }
+
+      .lastest--first_couple{
+        display: flex;
+        justify-content: space-between;
+        gap: 0 26.25px;
+        margin-bottom: 22px;
+          .first--article{
+            border-radius: 8px;
+            padding: 252.47px 0 30.35px 44px;
+            width: 539.75px;
+            height: 455.28px;
+            background-image: url(../img/section6/minimalSofa.png);
+              .date{
+                display: flex;
+                
+                button{
+                  display: flex;
+                  justify-content: start;
+                  align-items: center;
+                  width: 99.6px;
+                  height: 23.96px;
+                  font-family: DM Sans;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 12px;
+                  line-height: 130%;
+                  letter-spacing: 0.008em;
+                  text-transform: uppercase;
+                  color: #7AC751;          
+                  background: #F8FAFB;
+                  border-radius: 3px;
+                  
+                    img{
+                      padding: 5.32px 0.33px 0 8.22px;
+                      position: relative;
+                      bottom: 3px;
+                    }
+                }
+
+                span{
+                  font-family: Mulish;
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 14px;
+                  line-height: 130%;
+                  letter-spacing: 0.008em;
+                  color: #FFFFFF;
+                  margin-left: 5px;
+                  
+                }
+              }
+
+              .latest--title{
+                margin: 25px 0 37px 0;
+                width: 460.1px;
+                height: 75.88px;
+                font-family: Mulish;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 39px;
+                line-height: 120%;
+                letter-spacing: 0.005em;
+                color: #FFFFFF;
+                
+              }
+
+              .readMore{
+                font-family: DM Sans;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 130%;
+                letter-spacing: 0.008em;
+                color: #FFFFFF;
+              }
+          }
+
+          .second--article{
+            border-radius: 8px;
+            background-image: url(../img/section6/computerTable.png);
+          }
+
+          .third--article{
+              background-image: url(../img/section6/modernBench.png);
+          }
+
+          .last--article{
+            background-image: url(../img/section6/summerOutfit.png);
+        }
+      }
+    }
+
   }
 
- 
+  .footer{
+    .footer--list_container{
+      padding: 0 10%;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 51px;
+      .logo--info{
+        span{
+          display: flex;
+          align-items: center;
+          font-family: Rubik;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 28px;
+          color: #555555;
+            img{
+              margin: 0 5.21px 0 0;
+            }
+          
+        }
+
+        .logo--text{
+          width: 318px;
+          height: 96px;
+          font-family: Rubik;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 32px;
+          color: #555555;
+          margin-top: 18px;
+        }
+
+        .footer--icons{
+          margin-top: 8px;
+          width: 173.8px;
+          height: 32.2px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+            #icon{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 32.2px;
+              height: 32.2px;
+              box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+              border-radius: 50%;
+            }
+        }
+      }
+
+      ul{
+        li{
+          &:not(:first-child){
+            margin-top: 20px;
+          }
+          
+            a{
+              font-family: Rubik;
+              font-style: normal;
+               font-weight: normal;
+              font-size: 18px;
+              line-height: 40px;
+              letter-spacing: 0.01em;
+              color: #555555;
+                &:focus{
+                  font-weight: 500;
+                }
+            }
+        }
+      }
+    }
+
+    .sub--footer{
+      border-top: 1px solid #969696;
+        .sub--footer_items{
+          padding: 33px 10% 34.78px 10%;
+          display: flex;
+          justify-content: space-between;
+          .sub--footer_date{
+            font-family: Rubik;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 14px;
+            color: #555555;
+          }
+
+          ul{
+            display: flex;
+            li {
+              &:not(:last-child){
+                margin-right: 51px;
+              }
+              a{
+                font-family: Rubik;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 14px;
+                color: #555555;
+                
+              }
+            }
+          }
+        }
+    }
+  }
+
 }

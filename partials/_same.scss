@@ -247,4 +247,26 @@ input{
     border: none;
 }
 
+#comment1{
+    // display: none;
+        &.slide{
+            display: block;
+        }
+}
+
+#comment2{
+    display: none;
+        &.slide{
+            display: block;
+        }
+}
+
+#comment3{
+    display: none;
+        &.slide{
+            display: block;
+        }
+}
+
+
 
