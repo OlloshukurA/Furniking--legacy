@@ -3,6 +3,7 @@
 @import "../partials/variables";
 @import "../partials/same";
 @import "../partials/reset";
+@import "../partials/media";
 
 // !  font-family: 'Mulish', sans-serif; (in case of use)
 
@@ -182,6 +183,7 @@ body {
 
     
    .navbar{
+     width: 100%;
     background: #F7F8FA;
      &--row{
        padding: 0 10%;
@@ -423,8 +425,8 @@ body {
         justify-content: space-between;
         margin-top: 70px;
         .choice--modern {
-          width: 55%;
-          height: 511px;
+            width: 55%;
+            height: 511px;
           background-image: url(../img/section1/modernFurniture.png);
           padding: 49px 0 0 31px;
           .modern--title {
@@ -523,12 +525,12 @@ body {
             margin-bottom: 45px;
           }
           .top--chair {
-            width: 270px;
-            height: 387px;
+            width: 20%;
+            height: auto;
             position: relative;
 
             .chair--img_container {
-              width: 100%;
+              width: 210.03px;
               height: 287.82px;
               position: relative;
               background-position: center;
@@ -548,7 +550,7 @@ body {
                 display: none;
                 flex-direction: column;
                 justify-content: space-between;
-                width: 38.85px;
+                width: 50.85px;
                 height: 181.83px;
                 padding-top: 91.4px;
 

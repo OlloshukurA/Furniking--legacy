@@ -255,6 +255,54 @@ input {
   border: none;
 }
 
+@media screen and (max-width: 1273px) {
+  .top--chair .chair--img_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .top--chair .chair--img_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .top--chair .chair--img_container .main--img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1263px) {
+  .top--chair .chair--img_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .top--chair .chair--img_container #hoverImg {
+    display: none;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -527,6 +575,7 @@ body {
 }
 
 .wrapper .header .navbar {
+  width: 100%;
   background: #F7F8FA;
 }
 
@@ -1024,13 +1073,13 @@ body {
 }
 
 .wrapper .container .trending--chair_group .chair--group .top--chair {
-  width: 270px;
-  height: 387px;
+  width: 20%;
+  height: auto;
   position: relative;
 }
 
 .wrapper .container .trending--chair_group .chair--group .top--chair .chair--img_container {
-  width: 100%;
+  width: 210.03px;
   height: 287.82px;
   position: relative;
   background-position: center;
@@ -1063,7 +1112,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 38.85px;
+  width: 50.85px;
   height: 181.83px;
   padding-top: 91.4px;
 }
