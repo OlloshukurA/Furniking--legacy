@@ -1,24 +1,30 @@
-const colMenu = document.getElementById('collection--menu');
-const helpList = document.getElementById('help--list');
+// ** Hamburger menu 
+const hamburger = document.getElementById('hamburger');
+const bannerList = document.getElementById('bannerList');
+const bannerSlider = document.getElementById('bannerSlider');
 
-colMenu.addEventListener('click', () => {
-    colMenu.classList.toggle('active');
-    helpList.classList.toggle('active');
+hamburger.addEventListener('click', () => {
+    bannerList.classList.toggle('active');
+    hamburger.classList.toggle('active');
+    bannerSlider.style.width = "100%"
+    bannerSlider.classList.toggle('margin')
 })
+
+
 
 // * --------------------------------- *
 
-const oval = document.querySelector('.oval');
-oval.addEventListener('click', () =>{
-    oval.classList.toggle('change');
-})
+// const oval = document.querySelector('.oval');
+// oval.addEventListener('click', () =>{
+//     oval.classList.toggle('change');
+// })
 
 // * ============== SLIDER ===============
 const btn = document.querySelector("#first");
 const second = document.querySelector("#second");
 const third = document.querySelector("#third");
 const last = document.querySelector("#last");
-const chair = document.querySelector('#big--chair')
+const chair = document.querySelector('#big--chair');
 
 // if(btn){
 //     second || third || last.addEventListener('click', () => {
@@ -55,34 +61,34 @@ if(second){
 }
 
 
-btn.addEventListener('click', () => {
-    chair.src = "img/header/tall--chair.png"
-    btn.style.borderRadius = "666px"
-    btn.style.backgroundColor = "#7AC751"
-})
+// btn.addEventListener('click', () => {
+//     chair.src = "img/header/tall--chair.png"
+//     btn.style.borderRadius = "666px"
+//     btn.style.backgroundColor = "#7AC751"
+// })
 
-chair.style.width = "370px"
-chair.style.height = "370px"
+// chair.style.width = "370px"
+// chair.style.height = "370px"
 
-// *****************************
+// // *****************************
 
-second.addEventListener('click', () => {
-    chair.src = "img/header/chair2.png"
-    second.style.borderRadius = "666px"
-    second.style.backgroundColor = "#7AC751"
-})
+// second.addEventListener('click', () => {
+//     chair.src = "img/header/chair2.png"
+//     second.style.borderRadius = "666px"
+//     second.style.backgroundColor = "#7AC751"
+// })
 
-third.addEventListener('click', () => {
-    chair.src = "img/header/big--chair.png"
-    third.style.borderRadius = "666px"
-    third.style.backgroundColor = "#7AC751"
-})
+// third.addEventListener('click', () => {
+//     chair.src = "img/header/big--chair.png"
+//     third.style.borderRadius = "666px"
+//     third.style.backgroundColor = "#7AC751"
+// })
 
-last.addEventListener('click', () => {
-    chair.src = "img/header/last--chair.png",
-    last.style.borderRadius = "666px",
-    last.style.backgroundColor = "#7AC751";
-})
+// last.addEventListener('click', () => {
+//     chair.src = "img/header/last--chair.png",
+//     last.style.borderRadius = "666px",
+//     last.style.backgroundColor = "#7AC751";
+// })
 
 
 // * Trending ===========================
