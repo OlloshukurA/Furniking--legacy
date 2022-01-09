@@ -1078,28 +1078,27 @@ body {
   margin: 0 70px;
 }
 
-.wrapper .container .trending--chair_group .chair--group {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  gap: 0 20px;
-  margin-bottom: 50px;
+.wrapper .container .trending--chair_group {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px 45px;
+  gap: 45px 30px;
 }
 
-.wrapper .container .trending--chair_group .chair--group:first-child {
+.wrapper .container .trending--chair_group:first-child {
   margin-bottom: 45px;
 }
 
-.wrapper .container .trending--chair_group .chair--group .top--chair {
-  width: 20%;
+.wrapper .container .trending--chair_group .top--chair {
   height: auto;
   position: relative;
 }
 
-.wrapper .container .trending--chair_group .chair--group .top--chair .chair--img_container {
+.wrapper .container .trending--chair_group .top--chair .chair--img_container {
   width: 210.03px;
   height: 287.82px;
   position: relative;
@@ -1108,19 +1107,17 @@ body {
   transition: 0.7s ease;
 }
 
-.wrapper .container .trending--chair_group .chair--group .top--chair .chair--img_container:hover > .hover--images {
+.wrapper .container .trending--chair_group .top--chair .chair--img_container:hover > .hover--images {
   -webkit-transition: 0.8s;
   transition: 0.8s;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
 }
 
-.wrapper .container .trending--chair_group .chair--group .top--chair .chair--img_container:hover > .hover--images img:hover {
+.wrapper .container .trending--chair_group .top--chair .chair--img_container:hover > .hover--images img:hover {
   background-color: #7ac751;
 }
 
-.wrapper .container .trending--chair_group .chair--group .top--chair .chair--img_container .hover--images {
+.wrapper .container .trending--chair_group .top--chair .chair--img_container .hover--images {
   position: absolute;
   top: -10px;
   right: -40px;
@@ -1138,7 +1135,7 @@ body {
   padding-top: 91.4px;
 }
 
-.wrapper .container .trending--chair_group .chair--group .top--chair .chair--img_container .hover--images #heart {
+.wrapper .container .trending--chair_group .top--chair .chair--img_container .hover--images #heart {
   margin-bottom: 8.75px;
   width: 38.85px;
   height: 38.89px;
@@ -1149,7 +1146,7 @@ body {
   cursor: pointer;
 }
 
-.wrapper .container .trending--chair_group .chair--group .top--chair .chair--img_container .hover--images #bag {
+.wrapper .container .trending--chair_group .top--chair .chair--img_container .hover--images #bag {
   margin-bottom: 8.75px;
   width: 38.85px;
   height: 38.89px;
@@ -1160,7 +1157,7 @@ body {
   cursor: pointer;
 }
 
-.wrapper .container .trending--chair_group .chair--group .top--chair .chair--img_container .hover--images #refresh {
+.wrapper .container .trending--chair_group .top--chair .chair--img_container .hover--images #refresh {
   margin-bottom: 8.75px;
   width: 38.85px;
   height: 38.89px;
@@ -1171,7 +1168,7 @@ body {
   cursor: pointer;
 }
 
-.wrapper .container .trending--chair_group .chair--group .top--chair .chair--img_container .hover--images #watcher {
+.wrapper .container .trending--chair_group .top--chair .chair--img_container .hover--images #watcher {
   width: 38.85px;
   height: 38.89px;
   padding: 11.87px 9.71px;
@@ -1181,19 +1178,19 @@ body {
   cursor: pointer;
 }
 
-.wrapper .container .trending--chair_group .chair--group .top--chair .chair--img_container .main--img {
+.wrapper .container .trending--chair_group .top--chair .chair--img_container .main--img {
   position: relative;
   -webkit-transition: 0.6s ease;
   transition: 0.6s ease;
   cursor: pointer;
 }
 
-.wrapper .container .trending--chair_group .chair--group .top--chair .chair--img_container .main--img:hover {
+.wrapper .container .trending--chair_group .top--chair .chair--img_container .main--img:hover {
   -webkit-transition: 0.6s ease;
   transition: 0.6s ease;
 }
 
-.wrapper .container .trending--chair_group .chair--group .top--chair .chair--img_container button {
+.wrapper .container .trending--chair_group .top--chair .chair--img_container button {
   position: absolute;
   top: 0;
   left: 0;
@@ -1214,7 +1211,7 @@ body {
   z-index: 3;
 }
 
-.wrapper .container .trending--chair_group .chair--group .top--chair .chair--title {
+.wrapper .container .trending--chair_group .top--chair .chair--title {
   font-family: Mulish;
   font-style: normal;
   font-weight: normal;
@@ -1226,7 +1223,7 @@ body {
   margin: 15.18px 0 9px 0;
 }
 
-.wrapper .container .trending--chair_group .chair--group .top--chair .chair--type {
+.wrapper .container .trending--chair_group .top--chair .chair--type {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -1236,7 +1233,7 @@ body {
   margin-bottom: 8px;
 }
 
-.wrapper .container .trending--chair_group .chair--group .top--chair .chair--info {
+.wrapper .container .trending--chair_group .top--chair .chair--info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1248,7 +1245,7 @@ body {
           align-items: center;
 }
 
-.wrapper .container .trending--chair_group .chair--group .top--chair .chair--info .chair--discounted_price {
+.wrapper .container .trending--chair_group .top--chair .chair--info .chair--discounted_price {
   font-family: Mulish;
   font-style: normal;
   font-weight: bold;
@@ -1258,7 +1255,7 @@ body {
   color: #7AC751;
 }
 
-.wrapper .container .trending--chair_group .chair--group .top--chair .chair--info .chair--discounted_price .chair--real_price {
+.wrapper .container .trending--chair_group .top--chair .chair--info .chair--discounted_price .chair--real_price {
   font-family: Mulish;
   font-style: normal;
   font-weight: 600;
@@ -1271,13 +1268,19 @@ body {
   margin-left: 7px;
 }
 
-.wrapper .container .trending--chair_group .chair--group .top--chair .chair--info .chair--rating #rating--stars {
+.wrapper .container .trending--chair_group .top--chair .chair--info .chair--rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .container .trending--chair_group .top--chair .chair--info .chair--rating #rating--stars {
   width: 10px;
   height: 10px;
   cursor: pointer;
 }
 
-.wrapper .container .trending--chair_group .chair--group .top--chair .chair--info .chair--rating img {
+.wrapper .container .trending--chair_group .top--chair .chair--info .chair--rating img {
   cursor: pointer;
   width: 10px;
   height: 10px;
@@ -1401,7 +1404,7 @@ body {
   margin-left: 66px;
 }
 
-.wrapper .container .product .trending--chair_group .change--pages {
+.wrapper .container .product .change--pages {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1411,7 +1414,7 @@ body {
   margin: 70px 0 120px 0;
 }
 
-.wrapper .container .product .trending--chair_group .change--pages .next--page {
+.wrapper .container .product .change--pages .next--page {
   width: 141px;
   height: 44px;
   background-color: #7AC751;
@@ -1435,12 +1438,12 @@ body {
   margin-right: 143px;
 }
 
-.wrapper .container .product .trending--chair_group .change--pages .next--page #right--arrow {
+.wrapper .container .product .change--pages .next--page #right--arrow {
   width: 20px;
   height: 20px;
 }
 
-.wrapper .container .product .trending--chair_group .change--pages .change--page_num {
+.wrapper .container .product .change--pages .change--page_num {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1452,7 +1455,7 @@ body {
           align-items: center;
 }
 
-.wrapper .container .product .trending--chair_group .change--pages .change--page_num .num--page {
+.wrapper .container .product .change--pages .change--page_num .num--page {
   font-family: Mulish;
   font-style: normal;
   font-weight: normal;
@@ -1462,7 +1465,7 @@ body {
   color: #757575;
 }
 
-.wrapper .container .product .trending--chair_group .change--pages .change--page_num #num--one {
+.wrapper .container .product .change--pages .change--page_num #num--one {
   width: 58px;
   height: 29px;
   background: #F8FAFB;
@@ -1478,7 +1481,7 @@ body {
   color: #757575;
 }
 
-.wrapper .container .product .trending--chair_group .change--pages .change--page_num .allPage {
+.wrapper .container .product .change--pages .change--page_num .allPage {
   width: 55px;
   height: 23px;
   font-family: Mulish;
@@ -1491,7 +1494,7 @@ body {
   margin-right: 23px;
 }
 
-.wrapper .container .product .trending--chair_group .change--pages .change--page_num .changing--arrows {
+.wrapper .container .product .change--pages .change--page_num .changing--arrows {
   cursor: pointer;
   width: 58px;
   height: 29px;
@@ -1500,6 +1503,7 @@ body {
 }
 
 .wrapper .container .customer {
+  margin-top: 120px;
   margin-bottom: 115px;
 }
 
